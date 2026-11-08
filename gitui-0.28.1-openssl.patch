@@ -1,0 +1,38 @@
+From f0cbe33cd72951c0faf877ac1531d3af8ba66d2a Mon Sep 17 00:00:00 2001
+From: "dependabot[bot]" <49699333+dependabot[bot]@users.noreply.github.com>
+Date: Tue, 21 Apr 2026 02:57:33 +0000
+Subject: [PATCH] Bump openssl-sys from 0.9.111 to 0.9.114
+
+Bumps [openssl-sys](https://github.com/rust-openssl/rust-openssl) from 0.9.111 to 0.9.114.
+- [Release notes](https://github.com/rust-openssl/rust-openssl/releases)
+- [Commits](https://github.com/rust-openssl/rust-openssl/compare/openssl-sys-v0.9.111...openssl-sys-v0.9.114)
+
+---
+updated-dependencies:
+- dependency-name: openssl-sys
+  dependency-version: 0.9.114
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+---
+ Cargo.lock | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Cargo.lock b/Cargo.lock
+index 1534622d6a6b0031d9391db75680914f74bb3578..cced96f0f359143d4794d0b76f05eb381fed32c1 100644
+--- a/Cargo.lock
++++ b/Cargo.lock
+@@ -3003,9 +3003,9 @@ dependencies = [
+ 
+ [[package]]
+ name = "openssl-sys"
+-version = "0.9.111"
++version = "0.9.114"
+ source = "registry+https://github.com/rust-lang/crates.io-index"
+-checksum = "82cab2d520aa75e3c58898289429321eb788c3106963d0dc886ec7a5f4adc321"
++checksum = "13ce1245cd07fcc4cfdb438f7507b0c7e4f3849a69fd84d52374c66d83741bb6"
+ dependencies = [
+  "cc",
+  "libc",
